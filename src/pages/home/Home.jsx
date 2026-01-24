@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <section>
-                <div className="flex justify-center">
+                <div className="flex justify-center pt-20">
                     <img className="w-44 h-44 lg:w-44 lg:h-44 rounded-md" src="/docs/images/portfolio-image.jpg" />
                 </div>
                 <div className="flex">
