@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                <ul className="flex justify-center p-1">
+                <ul className="flex justify-center p-1 text-xl lg:text-4xl">
             <li>
                 <a href="https://www.linkedin.com/in/matthew-hughes-37a3291b8/" target="_blank" rel="noopener"
                     aria-label="Find us on Youtube by clicking the Youtube icon (link opens in new tab)">
@@ -35,12 +35,12 @@ const Home = () => {
             </section>
 
         <section>
-            <ul className="flex justify-center">
+            <ul className="flex justify-center text-xl lg:text-4xl">
                 <li><FontAwesomeIcon icon={faCss3Alt} /></li>
                 <li><FontAwesomeIcon icon={faReact} /></li>
                 <li><FontAwesomeIcon icon={faJs} /></li>
                 <li><FontAwesomeIcon icon={faHtml5} /></li>
-                <FontAwesomeIcon icon={faPython} />
+                <li><FontAwesomeIcon icon={faPython} /></li>
             </ul>
         </section>
 
