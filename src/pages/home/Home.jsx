@@ -10,6 +10,7 @@ import {
     faHtml5,
     faPython,
 } from "@fortawesome/free-brands-svg-icons";
+import Projects from "./Projects";
 
 const Home = () => {
     return (
@@ -77,6 +78,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        <Projects/>
         </>
     );
 };
