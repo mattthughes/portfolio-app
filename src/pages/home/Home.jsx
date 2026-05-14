@@ -15,7 +15,7 @@ import Projects from "./Projects";
 const Home = () => {
     return (
         <>
-        <section className="pt-20 md:pt-32 min-h-[75vh]">
+        <section className="pt-16 pb-20 md:pt-32">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
                     <div className="flex-1 text-center lg:text-left">
