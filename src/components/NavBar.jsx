@@ -17,10 +17,18 @@ const NavBar = () => {
                             </div>
                             <div className="hidden md:block">
                                 <div className="flex ml-10 items-baseline space-x-2">
-                                    <NavLink className={buttonClasses} to="/">Home</NavLink>
-                                    <NavLink className={buttonClasses} to="/about">About</NavLink>
-                                    <NavLink className={buttonClasses} to="/projects">Projects</NavLink>
-                                    <NavLink className={buttonClasses} to="/contact">Contact</NavLink>
+                                    <a href="#home" className={buttonClasses}>
+                                        Home
+                                    </a>
+                                    <a href="about" className={buttonClasses}>
+                                        About
+                                    </a>
+                                    <a href="#projects" className={buttonClasses}>
+                                        Projects
+                                    </a>
+                                    <a href="contact" className={buttonClasses}>
+                                        Contact
+                                    </a>
                                 </div>
                             </div>
                         </div>

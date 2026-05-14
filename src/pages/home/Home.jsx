@@ -13,6 +13,7 @@ import {
 
 const Home = () => {
     return (
+        <>
         <section className="pt-20 md:pt-32 min-h-[75vh]">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
@@ -76,6 +77,7 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        </>
     );
 };
 
