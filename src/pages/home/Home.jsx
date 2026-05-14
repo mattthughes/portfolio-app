@@ -13,7 +13,7 @@ import {
 
 const Home = () => {
     return (
-        <section className="pt-20 md:pt-32">
+        <section className="pt-20 md:pt-32 min-h-[75vh]">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
                     <div className="flex-1 text-center lg:text-left">
@@ -66,11 +66,11 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className=" hidden lg:flex flex-1 lg:justify-end lg:pr-8 xl:pr-16">
+                    <div className=" hidden lg:flex flex-1 lg:justify-start lg:pr-8 xl:pr-16">
                         <img
                             src="/docs/images/portfolio-image.jpg"
                             alt="Matthew Hughes"
-                            className="w-44 h-44 rounded-md object-cover"
+                            className="w-44 h-44 md:w-52 md:h-52 mx-auto lg:mx-0 rounded-md object-cover"
                         />
                     </div>
                 </div>
