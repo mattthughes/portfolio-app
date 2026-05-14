@@ -55,10 +55,18 @@ const NavBar = () => {
                 {
                     isOpen && (
                         <div className="flex flex-col gap-y-2 md:hidden px-4 sm:px-6 pb-2">
-                            <NavLink className={buttonClasses} to="/">Home</NavLink>
-                            <NavLink className={buttonClasses} to="/about">About</NavLink>
-                            <NavLink className={buttonClasses} to="/projects">Projects</NavLink>
-                            <NavLink className={buttonClasses} to="/contact">Contact</NavLink>
+                            <a href="#home" className={buttonClasses}>
+                                        Home
+                                    </a>
+                                    <a href="about" className={buttonClasses}>
+                                        About
+                                    </a>
+                                    <a href="#projects" className={buttonClasses}>
+                                        Projects
+                                    </a>
+                                    <a href="contact" className={buttonClasses}>
+                                        Contact
+                                    </a>
                         </div>
                     )
                 }
