@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 const NavBar = () => {
 
-    const buttonClasses = 'text-gray-100 font-bold text-sm px-2 py-1 border-2 border-gray-100 hover:bg-gray-100 hover:text-gray-800 rounded-lg transition duration-300'
+    const buttonClasses = 'text-gray-100 font-bold text-sm px-2 py-1 hover:bg-gray-100 hover:text-gray-800 rounded-lg transition duration-300 px-5 min-w-[100px] min-h-[20px] text-center';
 
     const [isOpen, setIsOpen] = useState(false);
     return (

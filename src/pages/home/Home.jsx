@@ -11,7 +11,7 @@ import {
     faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Projects";
-import Buttons from "../../components/Buttons";
+import Button from "../../components/Button";
 
 const Home = () => {
     return (
@@ -34,9 +34,9 @@ const Home = () => {
                                 Hi my name is Matthew Hughes, I am a passionate front-end React developer based in
                                 Southend-On-Sea England.
                             </p>
-                            <div className="pt-5 flex flex-col items-center justify-center lg:items-start lg:justify-start lg:flex-row gap-4">
-                                <Buttons href="#projects" variant="primary">View Projects</Buttons>
-                                <Buttons href="#contact" variant="secondary">Contact Me</Buttons>
+                            <div className="pt-4 flex flex-col items-center justify-center lg:items-start lg:justify-start lg:flex-row gap-4">
+                                <Button href="#projects" variant="primary">View Projects</Button>
+                                <Button href="#contact" variant="secondary">Contact Me</Button>
                             </div>
 
                             <ul className="mt-6 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
