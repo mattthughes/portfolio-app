@@ -6,8 +6,11 @@ import Home from './pages/home/Home'
 const App = () => {
   return (
     <>
-    <NavBar/>
+    <div className='bg-zinc-100 min-h-screen'>
+      <NavBar/>
     <Home/>
+    </div>
+    
     </>
     
   )

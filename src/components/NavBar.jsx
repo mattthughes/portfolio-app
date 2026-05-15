@@ -20,7 +20,7 @@ const NavBar = () => {
                                     <a href="#home" className={buttonClasses}>
                                         Home
                                     </a>
-                                    <a href="about" className={buttonClasses}>
+                                    <a href="#about" className={buttonClasses}>
                                         About
                                     </a>
                                     <a href="#projects" className={buttonClasses}>
@@ -58,7 +58,7 @@ const NavBar = () => {
                             <a href="#home" className={buttonClasses}>
                                         Home
                                     </a>
-                                    <a href="about" className={buttonClasses}>
+                                    <a href="#about" className={buttonClasses}>
                                         About
                                     </a>
                                     <a href="#projects" className={buttonClasses}>

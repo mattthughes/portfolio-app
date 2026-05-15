@@ -1,6 +1,6 @@
 const ProjectCard = ({ title, description, tech, image, projectUrl, gitHub }) => {
     return (
-        <div>
+        <div className="rounded-xl bg-white p-4 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
             <img src={image} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />
             <h3 className="text-xl font-bold mb-2">{title}</h3>
             <p className="text-gray-600 mb-4">{description}</p>
