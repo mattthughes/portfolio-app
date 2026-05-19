@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Projects";
 import Button from "../../components/Button";
+import Aurora from "../../components/Aurora";
 
 const Home = () => {
     return (
@@ -22,12 +23,19 @@ const Home = () => {
                         <div className="flex-1 text-center lg:text-left">
                             <h1 className="text-3xl font-bold mb-4">Junior software developer</h1>
 
-                            <div className="flex-1 flex justify-center lg:hidden mb-6">
+                            <div className="relative mx-auto overflow-hidden w-[190px] h-[190px] flex justify-center items-center lg:hidden mb-6">
+                                <Aurora
+                                colorStops={['#60a5fa', '#a78bfa', '#f0abfc']}
+                                amplitude={1.0}
+                                blend={0.5}
+                                speed={0.5}
+                                />
                                 <img
                                     src="/docs/images/portfolio-image.jpg"
                                     alt="Matthew Hughes"
-                                    className="w-44 h-44 rounded-md object-cover"
+                                    className="absolute z-10 w-36 h-36 rounded-md object-cover"
                                 />
+                                
                             </div>
 
                             <p className="text-lg">
