@@ -11,6 +11,7 @@ import {
     faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Projects";
+import About from "./About";
 import Button from "../../components/Button";
 import Aurora from "../../components/Aurora";
 
@@ -91,6 +92,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <About/>
             <Projects />
         </>
     );
