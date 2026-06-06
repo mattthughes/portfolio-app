@@ -26,7 +26,7 @@ const NavBar = () => {
                                     <a href="#projects" className={buttonClasses}>
                                         Projects
                                     </a>
-                                    <a href="contact" className={buttonClasses}>
+                                    <a href="#contact" className={buttonClasses}>
                                         Contact
                                     </a>
                                 </div>

@@ -12,6 +12,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Button from "../../components/Button";
 import Aurora from "../../components/Aurora";
+import Contact from "./Contact";
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
                         <div className="flex-1 text-center lg:text-left">
-                            <h1 className="text-3xl font-bold mb-4">Fullstack software developer</h1>
+                            <h1 className="text-3xl font-bold mb-4">Full-stack software developer</h1>
 
                             <div className="relative mx-auto overflow-hidden w-[190px] h-[190px] flex justify-center items-center lg:hidden mb-6">
                                 <Aurora
@@ -38,7 +39,7 @@ const Home = () => {
                             </div>
 
                             <p className="text-lg">
-                                Hi my name is Matthew Hughes, I am a Fullstack software developer based in
+                                Hi my name is Matthew Hughes, I am a Full-stack software developer based in
                                 Southend-On-Sea England.
                             </p>
                             <div className="pt-4 flex flex-col items-center justify-center lg:items-start lg:justify-start lg:flex-row gap-4">
@@ -90,6 +91,7 @@ const Home = () => {
             </section>
             <About/>
             <Projects />
+            <Contact />
             <footer className="bg-gray-800 text-white py-6 mt-12">
                 <div className="max-w-7xl mx-auto px-4">
                     <p className="text-center">
