@@ -7,8 +7,6 @@ import {
     faCss3Alt,
     faReact,
     faJs,
-    faHtml5,
-    faPython,
 } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Projects";
 import About from "./About";
@@ -22,7 +20,7 @@ const Home = () => {
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
                         <div className="flex-1 text-center lg:text-left">
-                            <h1 className="text-3xl font-bold mb-4">Junior software developer</h1>
+                            <h1 className="text-3xl font-bold mb-4">Fullstack software developer</h1>
 
                             <div className="relative mx-auto overflow-hidden w-[190px] h-[190px] flex justify-center items-center lg:hidden mb-6">
                                 <Aurora
@@ -40,7 +38,7 @@ const Home = () => {
                             </div>
 
                             <p className="text-lg">
-                                Hi my name is Matthew Hughes, I am a passionate front-end React developer based in
+                                Hi my name is Matthew Hughes, I am a Fullstack software developer based in
                                 Southend-On-Sea England.
                             </p>
                             <div className="pt-4 flex flex-col items-center justify-center lg:items-start lg:justify-start lg:flex-row gap-4">
@@ -49,7 +47,7 @@ const Home = () => {
                             </div>
 
                             <ul className="mt-6 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
-                                <li>
+                                <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer">
                                     <a
                                         href="https://www.linkedin.com/in/matthew-hughes-37a3291b8/"
                                         target="_blank"
@@ -59,7 +57,7 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faLinkedin} />
                                     </a>
                                 </li>
-                                <li>
+                                <li className="hover:bg-gray-100 hover:text-purple-600 cursor-pointer">
                                     <a
                                         href="https://github.com/mattthughes"
                                         target="_blank"
@@ -74,11 +72,9 @@ const Home = () => {
                             <div className="mt-8">
                                 <h3 className="text-center lg:text-left">Techstack</h3>
                                 <ul className="mt-3 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
-                                    <li><FontAwesomeIcon icon={faCss3Alt} /></li>
-                                    <li><FontAwesomeIcon icon={faReact} /></li>
-                                    <li><FontAwesomeIcon icon={faJs} /></li>
-                                    <li><FontAwesomeIcon icon={faHtml5} /></li>
-                                    <li><FontAwesomeIcon icon={faPython} /></li>
+                                    <li className="hover:bg-gray-100 hover:text-red-600 cursor-pointer"><FontAwesomeIcon icon={faCss3Alt} /></li>
+                                    <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><FontAwesomeIcon icon={faReact} /></li>
+                                    <li className="hover:bg-gray-100 hover:text-yellow-600 cursor-pointer"><FontAwesomeIcon icon={faJs} /></li>
                                 </ul>
                             </div>
                         </div>
