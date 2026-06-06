@@ -18,7 +18,7 @@ import Aurora from "../../components/Aurora";
 const Home = () => {
     return (
         <>
-            <section className="pt-16 pb-20 md:pt-32" id="home">
+            <section className="pt-10 pb-20 md:pt-32" id="home">
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
                         <div className="flex-1 text-center lg:text-left">
