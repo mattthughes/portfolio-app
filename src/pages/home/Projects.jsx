@@ -22,7 +22,7 @@ const Projects = () => {
                     tech="OpenAI, Django, CSS, Bootstrap"
                     image="/docs/images/tech-buddy-live-demo.png"
                     projectUrl="https://support-squad-tech-buddy-9d4a4ad47301.herokuapp.com/"
-                    gitHub="https://github.com/https://github.com/mattthughes/tech_buddy/souls-like-gallery-app"
+                    gitHub="https://github.com/mattthughes/tech_buddy"
 
                     />
                     <ProjectCard
