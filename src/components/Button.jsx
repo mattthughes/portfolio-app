@@ -1,4 +1,4 @@
-const Button = ({ children, href, variant = "primary" }) => {
+const Button = ({ children, href, variant = "primary", download }) => {
     const baseStyles = "px-4 py-2 rounded-md text-white transition-colors duration-300 font-bold text-sm min-w-[120px] text-center min-h-[40px]";
     const variants = {
         primary: "bg-black hover:bg-gray-700",
@@ -7,7 +7,7 @@ const Button = ({ children, href, variant = "primary" }) => {
     }
 
     return (
-        <a href={href} className={`${baseStyles} ${variants[variant]}`}>
+        <a href={href} download={download} className={`${baseStyles} ${variants[variant]}`}>
             {children}
         </a>
     )

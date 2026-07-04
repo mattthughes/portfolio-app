@@ -13,6 +13,7 @@ import About from "./About";
 import Button from "../../components/Button";
 import Aurora from "../../components/Aurora";
 import Contact from "./Contact";
+import resume from "/docs/cv/resume.pdf"
 
 const Home = () => {
     return (
@@ -21,7 +22,7 @@ const Home = () => {
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-3">
                         <div className="flex-1 text-center lg:text-left">
-                            <h1 className="text-3xl font-bold mb-4">Full-stack software developer</h1>
+                            <h1 className="text-3xl font-bold mb-4">Software Developer</h1>
 
                             <div className="relative mx-auto overflow-hidden w-[190px] h-[190px] flex justify-center items-center lg:hidden mb-6">
                                 <Aurora
@@ -39,12 +40,12 @@ const Home = () => {
                             </div>
 
                             <p className="text-lg">
-                                Hi my name is Matthew Hughes, I am a Full-stack software developer based in
-                                Southend-On-Sea England.
+                                Hi, I'm Matthew Hughes, a software developer based in Southend-on-Sea, England. I enjoy building web applications using React, JavaScript, Python and Django
                             </p>
                             <div className="pt-4 flex flex-col items-center justify-center lg:items-start lg:justify-start lg:flex-row gap-4">
                                 <Button href="#projects" variant="primary">View Projects</Button>
                                 <Button href="#contact" variant="secondary">Contact Me</Button>
+                                <Button href={resume} download="Matthew_Hughes_CV">Download CV</Button>
                             </div>
 
                             <ul className="mt-6 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
