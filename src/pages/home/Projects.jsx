@@ -9,6 +9,23 @@ const Projects = () => {
                 <h2 className="text-2xl font-bold mb-4">Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <ProjectCard
+                        title="Holiday Entitlement Calculator"
+                        description="A React "
+                        tech="React"
+                        image="/docs/images/holiday-entitlement.png"
+                        projectUrl="https://entitlement-calculator.vercel.app/"
+                        gitHub="https://github.com/mattthughes/entitlement_calculator"
+                    />
+                    <ProjectCard
+                    title="Tech Buddy"
+                    description="Tech Buddy is an AI-powered web application developed during a hackathon to help users with common technology-related questions"
+                    tech="OpenAI, Django, CSS, Bootstrap"
+                    image="/docs/images/tech-buddy-live-demo.png"
+                    projectUrl="https://support-squad-tech-buddy-9d4a4ad47301.herokuapp.com/"
+                    gitHub="https://github.com/https://github.com/mattthughes/tech_buddy/souls-like-gallery-app"
+
+                    />
+                    <ProjectCard
                         title="Souls Like Gallery"
                         description="Souls Like Gallery is a content sharing application built using a frontend libary called React along with a backend framework called Djanjo Restframework this application will allow users to share there favourite experiences and moments from the souls like genre users will be able to create, read, update and delete records on the application. This is the Frontend development pipeline which showcases how this application was made."
                         tech="React, PostgreSQL, Django Rest Framework, CSS, Bootstrap"
@@ -16,14 +33,7 @@ const Projects = () => {
                         projectUrl="https://souls-like-gallery-03103574fc28.herokuapp.com/"
                         gitHub="https://github.com/mattthughes/souls-like-gallery-app"
                     />
-                    <ProjectCard
-                        title="Holiday Entitlement Calculator"
-                        description="An entitlement calculator to calculate remaining holiday"
-                        tech="React"
-                        image="/docs/images/holiday-entitlement.png"
-                        projectUrl="https://entitlement-calculator.vercel.app/"
-                        gitHub="https://github.com/mattthughes/entitlement_calculator"
-                    />
+                    
                     <ProjectCard
                         title="Last Trophy"
                         description="Last trophy is a web application that allows Trophy hunting this application will allow users to view achievement guides, create an account, comment, rate other guides."
