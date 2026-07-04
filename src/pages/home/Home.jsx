@@ -13,7 +13,7 @@ import About from "./About";
 import Button from "../../components/Button";
 import Aurora from "../../components/Aurora";
 import Contact from "./Contact";
-import resume from "/docs/cv/resume.pdf"
+import resume from "/docs/cv/Matthew_Hughes_CV.pdf"
 
 const Home = () => {
     return (

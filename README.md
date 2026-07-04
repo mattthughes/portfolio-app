@@ -1,16 +1,69 @@
-# React + Vite
+# Matthew Hughes Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio, built to showcase my projects, skills and experience as I continue developing as a software developer.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View the live site](https://portfolio-app-sigma-five.vercel.app/)
 
-## React Compiler
+## Preview
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+<p align="center">
+<img
+src="public/docs/images/portfolio-readme.png"
+alt="Portfolio Preview"
+width="800"
+/>
+</p>
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The portfolio includes information about me, my technical skills, and selected projects I have built using React, JavaScript, Python, Django and other technologies.
+
+It is designed to give recruiters and employers a clear overview of my work, with links to live projects and GitHub repositories.
+
+## Features
+
+- Responsive design for desktop and mobile
+- Project showcase section
+- Links to live demos and GitHub repositories
+- About section
+- Contact information
+- Clean and simple UI
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vercel
+
+## Projects Featured
+
+- Souls Like Gallery
+- Holiday Entitlement Calculator
+- Tech Buddy
+- Last Trophy
+
+## What I Learned
+
+While building this portfolio, I improved my understanding of:
+
+- Structuring a React application
+- Creating reusable components
+- Responsive layouts
+- Deploying with Vercel
+- Presenting projects clearly for recruiters and employers
+
+## Future Improvements
+
+- Add more detailed project case studies
+- Add TypeScript
+- Add animations or page transitions
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/matthew-hughes-37a3291b8  
+GitHub: https://github.com/mattthughes  
+Portfolio: https://portfolio-app-sigma-five.vercel.app/
