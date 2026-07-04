@@ -45,7 +45,7 @@ const Home = () => {
                             <div className="pt-4 flex flex-col items-center justify-center lg:items-start lg:justify-start lg:flex-row gap-4">
                                 <Button href="#projects" variant="primary">View Projects</Button>
                                 <Button href="#contact" variant="secondary">Contact Me</Button>
-                                <Button href={resume} download="Matthew_Hughes_CV">Download CV</Button>
+                                <Button href={resume} variant="secondary" download="Matthew_Hughes_CV">Download CV</Button>
                             </div>
 
                             <ul className="mt-6 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
@@ -72,7 +72,7 @@ const Home = () => {
                             </ul>
 
                             <div className="mt-8">
-                                <h3 className="text-center lg:text-left">Techstack</h3>
+                                <h3 className="text-center lg:text-left">Tech Stack</h3>
                                 <ul className="mt-3 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
                                     <li className="hover:bg-gray-100 hover:text-red-600 cursor-pointer"><FontAwesomeIcon icon={faCss3Alt} /></li>
                                     <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><FontAwesomeIcon icon={faReact} /></li>
