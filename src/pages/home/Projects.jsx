@@ -17,8 +17,8 @@ const Projects = () => {
                         gitHub="https://github.com/mattthughes/entitlement_calculator"
                     />
                     <ProjectCard
-                    title="Tech Buddy"
-                    description="Tech Buddy is an AI-powered web application developed during a hackathon to help users with common technology-related questions. The application uses the OpenAI API to generate responses and was built as part of a team using GitHub and pull requests. It gave me valuable experience working in a team and collaborating on a shared codebase"
+                    title="Tech Buddy — 2nd Place, Hackathon"
+                    description="Tech Buddy is an AI-powered web application developed during a hackathon to help users with common technology-related questions, where our team placed 2nd overall. The application uses the OpenAI API to generate responses and was built as part of a team using GitHub and pull requests, giving me valuable experience working collaboratively on a shared codebase under time pressure."
                     tech="OpenAI, Django, CSS, Bootstrap"
                     image="/docs/images/tech-buddy-live-demo.png"
                     projectUrl="https://support-squad-tech-buddy-9d4a4ad47301.herokuapp.com/"
@@ -27,7 +27,7 @@ const Projects = () => {
                     />
                     <ProjectCard
                         title="Souls Like Gallery"
-                        description="Souls Like Gallery is a full-stack web application where users can create an account, share posts and interact with other members of the community. This project taught me how to build my own REST API, connect a React frontend to a Django backend and implement authentication and CRUD functionality."
+                        description="Souls Like Gallery is a full-stack web application where users can create an account, share posts and interact with other members of the community. This project taught me how to build my own REST API — backed by unit tests — connect a React frontend to a Django backend, and implement authentication and CRUD functionality."
                         tech="React, PostgreSQL, Django Rest Framework, CSS, Bootstrap"
                         image="/docs/images/souls-like-gallery.png"
                         projectUrl="https://souls-like-gallery-03103574fc28.herokuapp.com/"
