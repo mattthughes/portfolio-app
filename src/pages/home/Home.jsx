@@ -7,6 +7,7 @@ import {
     faCss3Alt,
     faReact,
     faJs,
+    faPython
 } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Projects";
 import About from "./About";
@@ -77,6 +78,8 @@ const Home = () => {
                                     <li className="hover:bg-gray-100 hover:text-red-600 cursor-pointer"><FontAwesomeIcon icon={faCss3Alt} /></li>
                                     <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><FontAwesomeIcon icon={faReact} /></li>
                                     <li className="hover:bg-gray-100 hover:text-yellow-600 cursor-pointer"><FontAwesomeIcon icon={faJs} /></li>
+                                    <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><FontAwesomeIcon icon={faPython} /></li>
+
                                 </ul>
                             </div>
                         </div>
