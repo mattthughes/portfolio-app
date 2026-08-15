@@ -1,5 +1,6 @@
 import React from "react";
 import "../../index.css";
+import { SiTypescript } from "react-icons/si";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
@@ -7,7 +8,8 @@ import {
     faCss3Alt,
     faReact,
     faJs,
-    faPython
+    faPython,
+
 } from "@fortawesome/free-brands-svg-icons";
 import Projects from "./Projects";
 import About from "./About";
@@ -27,17 +29,17 @@ const Home = () => {
 
                             <div className="relative mx-auto overflow-hidden w-[190px] h-[190px] flex justify-center items-center lg:hidden mb-6">
                                 <Aurora
-                                colorStops={['#60a5fa', '#a78bfa', '#f0abfc']}
-                                amplitude={1.0}
-                                blend={0.5}
-                                speed={0.5}
+                                    colorStops={['#60a5fa', '#a78bfa', '#f0abfc']}
+                                    amplitude={1.0}
+                                    blend={0.5}
+                                    speed={0.5}
                                 />
                                 <img
                                     src="/docs/images/portfolio-image.jpg"
                                     alt="Matthew Hughes"
                                     className="absolute z-10 w-36 h-36 rounded-md object-cover"
                                 />
-                                
+
                             </div>
 
                             <p className="text-lg">
@@ -74,11 +76,12 @@ const Home = () => {
 
                             <div className="mt-8">
                                 <h3 className="text-center lg:text-left">Tech Stack</h3>
-                                <ul className="mt-3 flex justify-center lg:justify-start gap-6 text-2xl lg:text-4xl">
+                                <ul className="mt-3 flex justify-center items-center lg:justify-start gap-6 text-2xl lg:text-4xl">
                                     <li className="hover:bg-gray-100 hover:text-red-600 cursor-pointer"><FontAwesomeIcon icon={faCss3Alt} /></li>
                                     <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><FontAwesomeIcon icon={faReact} /></li>
                                     <li className="hover:bg-gray-100 hover:text-yellow-600 cursor-pointer"><FontAwesomeIcon icon={faJs} /></li>
                                     <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><FontAwesomeIcon icon={faPython} /></li>
+                                    <li className="hover:bg-gray-100 hover:text-blue-600 cursor-pointer"><SiTypescript className="w-8 h-8 flex items-center justify-center" /></li>
 
                                 </ul>
                             </div>
@@ -93,7 +96,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <About/>
+            <About />
             <Projects />
             <Contact />
             <footer className="bg-gray-800 text-white py-6 mt-12">
